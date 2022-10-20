@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <title>Dompetku</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand text-warning fw-bold" href="/">Dompetku</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" href="./cashflow.html">Pengeluaran</a>
+          <a class="nav-link me-3" href="./artikel.html">Artikel</a>
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Hilmi Almuhtade
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./profile.html">Profile</a></li>
+              <li><a class="dropdown-item" href="./login.html">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <h1>Januari 2022</h1>
+    <p>Bulan ini sisihkan 20% penghasilan untuk investasi. Jangan lupa mengirim sebagian uang untuk orang tua. Sisihkan 1 juta untuk biaya pendidikan anak dan uang saku.</p>
+
+    <div class="my-5">
+      <h4>Rincian Pengeluaran</h4>
+      <button type="button" class="btn btn-primary mt-1 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        + Pengeluaran
+      </button>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Deskripsi</th>
+            <th scope="col">Kategori</th>
+            <th scope="col">Nominal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Beras 10kg</td>
+            <td>Kebutuhan</td>
+            <td>Rp.150.000</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Gundam 1pcs</td>
+            <td>Hobi</td>
+            <td>Rp.600.000</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Asuransi Kesehatan</td>
+            <td>Kesehatan</td>
+            <td>Rp.100.000</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Biaya sekolah anak</td>
+            <td>Pendidikan</td>
+            <td>Rp.800.000</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Reksadana Saham</td>
+            <td>Investasi</td>
+            <td>Rp.2.000.000</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Kopi</td>
+            <td>Jajan</td>
+            <td>Rp.60.000</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Infaq</td>
+            <td>Amal</td>
+            <td>Rp.200.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-light">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <a href="/" class="navbar-brand">
+            <h4 class="fw-bold text-warning">Dompetku</h4>
+          </a>
+          <p class="text-white-50">Rasakan kemudahan mencatat pengeluaran dengan aplikasi Dompetku.</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Menu</h4>
+          <ul class="list-unstyled">
+            <li><a href="./cashflow.html">Pengeluaran</a></li>
+            <li><a href="./artikel.html">Artikel</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="bg-black text-center text-white-50 m-0 py-3">Dompetku &copy; 2022. All Right Reserved.</p>
+  </footer>
+
+  <!-- modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Pengeluaran</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-semibold">Deskripsi</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="contoh : Nasi Goreng">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-semibold">Kategori</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="contoh : Januari 2022">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-semibold">Nominal</label>
+              <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="contoh : Januari 2022">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+          <button type="button" class="btn btn-primary">Tambah</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>
