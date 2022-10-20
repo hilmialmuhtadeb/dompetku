@@ -12,14 +12,14 @@
 <body>
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand text-warning fw-bold" href="#">Dompetku</a>
+      <a class="navbar-brand text-warning fw-bold" href="/">Dompetku</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link active" href="./pages/cashflow.html">Pengeluaran</a>
-          <a class="nav-link me-3" href="./pages/artikel.html">Artikel</a>
+          <a class="nav-link active" href="#">Pengeluaran</a>
+          <a class="nav-link me-3" href="./artikel.html">Artikel</a>
           <div class="dropdown">
             <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Hilmi Almuhtade
@@ -36,19 +36,215 @@
   </nav>
   
   <div class="container">
-    <h1 class="text-center my-4">Pengeluaran Saya</h1>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
+    <div class="my-5">
+      <h1>Pengeluaran Saya</h1>
+      <p>Semua jendela pengeluaran Anda ditampilkan pada halaman ini. Anda dapat menambah, mengubah, dan menghapus di sini.</p>
+    </div>
+    <div class="row mb-5">
+
+      <div class="col-4 my-3">
+        <div class="card shadow">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <div class="d-flex justify-content-between align-items-center">
+              <h5 class="card-title mb-2">Januari 2022</h5>
+              <div class="btn-group">
+                <button class="btn btn-sm fw-bold fs-6" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ⋮
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#editModal">
+                      Ubah
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                      Hapus
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="card-text">Bulan ini boleh banyak jajan karena pendapatan naik. Jangan lupa sisihkan uang untuk investasi dan menabung.</p>
+            <a href="./detail.html" class="card-link">Lihat Detail</a>
           </div>
         </div>
       </div>
+
+      <div class="col-4 my-3">
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+              <h5 class="card-title mb-2">Februari 2022</h5>
+              <div class="btn-group">
+                <button class="btn btn-sm fw-bold fs-6" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ⋮
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#editModal">
+                      Ubah
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                      Hapus
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="card-text">Bulan ini boleh banyak jajan karena pendapatan naik. Jangan lupa sisihkan uang untuk investasi dan menabung.</p>
+            <a href="./detail.html" class="card-link">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 my-3">
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+              <h5 class="card-title mb-2">Maret 2022</h5>
+              <div class="btn-group">
+                <button class="btn btn-sm fw-bold fs-6" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ⋮
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#editModal">
+                      Ubah
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                      Hapus
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="card-text">Bulan ini boleh banyak jajan karena pendapatan naik. Jangan lupa sisihkan uang untuk investasi dan menabung.</p>
+            <a href="./detail.html" class="card-link">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 my-3">
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+              <h5 class="card-title mb-2">April 2022</h5>
+              <div class="btn-group">
+                <button class="btn btn-sm fw-bold fs-6" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ⋮
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#editModal">
+                      Ubah
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                      Hapus
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="card-text">Bulan ini boleh banyak jajan karena pendapatan naik. Jangan lupa sisihkan uang untuk investasi dan menabung.</p>
+            <a href="./detail.html" class="card-link">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 my-3">
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+              <h5 class="card-title mb-2">Juni 2022</h5>
+              <div class="btn-group">
+                <button class="btn btn-sm fw-bold fs-6" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ⋮
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#editModal">
+                      Ubah
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                      Hapus
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="card-text">Bulan ini boleh banyak jajan karena pendapatan naik. Jangan lupa sisihkan uang untuk investasi dan menabung.</p>
+            <a href="./detail.html" class="card-link">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 my-3">
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+              <h5 class="card-title mb-2">Juli 2022</h5>
+              <div class="btn-group">
+                <button class="btn btn-sm fw-bold fs-6" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ⋮
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#editModal">
+                      Ubah
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                      Hapus
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="card-text">Bulan ini boleh banyak jajan karena pendapatan naik. Jangan lupa sisihkan uang untuk investasi dan menabung.</p>
+            <a href="./detail.html" class="card-link">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 my-3">
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+              <h5 class="card-title mb-2">Oktober 2022</h5>
+              <div class="btn-group">
+                <button class="btn btn-sm fw-bold fs-6" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ⋮
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#editModal">
+                      Ubah
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" class="d-block dropdown-item btn" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                      Hapus
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="card-text">Bulan ini boleh banyak jajan karena pendapatan naik. Jangan lupa sisihkan uang untuk investasi dan menabung.</p>
+            <a href="./detail.html" class="card-link">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -71,8 +267,55 @@
     <p class="bg-black text-center text-white-50 m-0 py-3">Dompetku &copy; 2022. All Right Reserved.</p>
   </footer>
 
+  <!-- edit modal -->
+  <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ubah Data</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-semibold">Periode</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="contoh : Januari 2022">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label fw-semibold">Password</label>
+              <textarea class="form-control" rows="4"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+          <button type="button" class="btn btn-primary">Simpan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- delete modal -->
+  <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Hapus Data</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Yakin Ingin Menghapus
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+          <button type="button" class="btn btn-danger">Hapus</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="https://unpkg.com/@popperjs/core@2"></script>
-  <script src="./js/bootstrap.js"></script>
+  <script src="../js/bootstrap.js"></script>
 </body>
 
 </html>
